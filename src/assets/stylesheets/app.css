@@ -521,7 +521,7 @@ a,
      item selected: show item
 */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 994.98px) {
   #app #col-feed-list {
     width: 35% !important;
   }
@@ -579,7 +579,7 @@ a,
 
 /* styles for both mobile & tablet layout */
 
-@media (max-width: 991.98px) {
+@media (max-width: 994.98px) {
   .drag {
     cursor: default;
   }
@@ -593,7 +593,8 @@ a,
   }
   #col-item-toolbar {
     position: fixed;
-    inset: auto 0 env(safe-area-inset-bottom) 0;
+    inset: auto 0 0 0;
+    padding-bottom: env(safe-area-inset-bottom);
     border-top: 1px solid #dee2e6;
     background: #fff;
   }
