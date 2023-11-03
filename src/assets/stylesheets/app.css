@@ -347,7 +347,7 @@ select.form-control:not([multiple]):not([size]) {
 .content {
   overflow-wrap: break-word;
   line-height: 1.5;
-  padding-bottom: 5rem;
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom));
 }
 
 .content img, .content video {
@@ -593,7 +593,7 @@ a,
   }
   #col-item-toolbar {
     position: fixed;
-    inset: auto 0 0 0;
+    inset: auto 0 env(safe-area-inset-bottom) 0;
     border-top: 1px solid #dee2e6;
     background: #fff;
   }
