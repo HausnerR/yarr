@@ -594,6 +594,7 @@ a,
   #col-item-toolbar {
     position: fixed;
     inset: auto 0 0 0;
+    z-index: 100;
     padding-bottom: env(safe-area-inset-bottom);
     border-top: 1px solid #dee2e6;
     background: #fff;
